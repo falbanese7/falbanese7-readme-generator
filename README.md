@@ -2,7 +2,7 @@
 
 ## Badges
 
-[![License: MIT License]https://img.shields.io/badge/license-MIT%20License-blue](https://choosealicense.com/licenses/mit/)
+[![License: MIT License](https://img.shields.io/badge/license-MIT%20License-blue)](https://choosealicense.com/licenses/mit/)
 
 ## Description
 
@@ -12,7 +12,7 @@ Creates a readme file by answering prompts in the terminal.
 - Spending too much time on writing a readme
 - How to implement npm and node to build a working application
 
-## Table of Contents 
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -23,13 +23,30 @@ Creates a readme file by answering prompts in the terminal.
 
 ## Installation
 
-To use this app 1. Open the repository in your preferred code editor (this guide uses readme-genrator repository,  click the code button, copy the link, open your terminal, type git clone into the terminal and paste the link you copied. This will create a local version of the repository that contains the application. The application is now installed.
+To install this app:
+
+1. Go to the repository linked below in Credits.
+2. Click the code button
+   ![Highlighting code button](images/Screen%20Shot%202022-05-19%20at%201.15.05%20AM.png)
+3. Copy the link
+4. Open your terminal
+   ![git clone typed in terminal](images/Screen%20Shot%202022-05-19%20at%201.17.01%20AM.png)
+5. Type git clone into the terminal and paste the link you copied from the repository
+
+6. This will create a local version of the repository that contains the application. The application is now installed by default.
 
 ## Usage
 
-To use this app 1. Open the repository in your preferred code editor (this guide uses Visual Studio Code) 2. Right click the index.js file 3. Open the directory in an integrated terminal 4. Type 'node index.js' into the terminal 5.Answer the prompts 6.After the prompts are answered, a README.md file should  be created with your answers filled in
+To use this app:
 
- ![alt text](assets/images/screenshot.png)
+1.  Open the repository in your preferred code editor (this guide uses Visual Studio Code)
+2.  Right click the index.js file
+    ![Right clicking index.js for integrated terminal](images/Screen%20Shot%202022-05-19%20at%201.18.29%20AM.png)
+3.  Open the directory in an integrated terminal
+4.  Type 'node index.js' into the terminal
+    ![Typing node index.js into terminal](images/Screen%20Shot%202022-05-19%20at%201.18.44%20AM.png)
+5.  Answer the prompts
+6.  After the prompts are answered, a README.md file should be created with your answers filled in.
 
 ## How to Contribute
 
@@ -49,8 +66,7 @@ GitHub Profile: https://github.com/falbanese7
 
 ## License
 
-Documentation for MIT License can be found below:
-[![License: MIT License'](https://choosealicense.com/licenses/mit/)
+Documentation for MIT License can be found at:
+[License: MIT License](https://choosealicense.com/licenses/mit/)
 
 ---
-

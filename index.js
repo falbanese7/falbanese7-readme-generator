@@ -63,20 +63,19 @@ const appPrompt = () => {
         },
         {
             type: 'input',
+            message: 'Please provide the GitHub repo URL',
+            name: 'repo'
+        },
+        {
+            type: 'input',
             message: 'Please provide your GitHub profile URL',
             name: 'gitprofile'
         },
     ])
 };
-// TODO: Create a function to write README file
-// function writeReadMe(fileName, data) {
-//     fs.writeFile(`${fileName}.md`, data, (err) =>
-//     err ? console.error(err) : console.log(`Success! ${fileName}.md has been written.`)
-// );
-// }
 
 // TODO: Create a function to initialize app
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./utils/generateMarkdown');
 
 const init = () => {
     appPrompt()
