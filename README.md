@@ -16,7 +16,7 @@ Creates a readme file by answering prompts in the terminal.
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [How to Contribute](#HowtoContribute)
+- [How to Contribute](#How-to-Contribute)
 - [Tests](#tests)
 - [Credits](#credits)
 - [License](#license)
