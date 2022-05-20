@@ -1,21 +1,28 @@
-const fs = require('fs');
-const generateMarkdown = require("./utils/generateMarkdown");
-
-jest.mock('fs');
+const generateMarkdown = require('../utils/generateMarkdown');
 
 describe('generateMarkdwon', () => {
-    describe('write', () => {
-        it("should call fs.writeFileSync with the passed in the file and data arguments", () => {
-            const readMe = generateMarkdown();
+    describe('generateMarkdown', () => {
+        it("should call generateMarkdown with the passed in the file and data arguments", () => {
+            const newGen = new generateMarkdown();
             const path = "README.md"
             const data = {
-                name: "Fran",
-                age: 25
+                title: "README Generator",
+                license: "MIT License",
+                description: "description",
+                motivation: "test",
+                solved: "Solves this",
+                learnings: "I learned to test",
+                installation: "install this",
+                usage: "use it this way",
+                tests: "test this way",
+                authors: "Fran",
+                email: "falbanese96@gmail.com",
+                repo: "my repo",
+                gitprofile: "my profile"
             }
+            // Rest of code goes here
 
-            readMe.write(path, data);
-
-            expect(fs.writeFileSync).lastCalledWith(path, data);
+        
         })
     });
 });
