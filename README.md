@@ -1,4 +1,4 @@
-# Francesco Albanese's REAEDME.md Generator
+# Francesco Albanese's README Generator
 
 ## Badges
 
