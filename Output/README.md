@@ -2,17 +2,17 @@
 
 ## Badges
 
-[![License: GNU LGPLv3](https://img.shields.io/badge/license-GNU%20LGPLv3-brightgreen)](https://choosealicense.com/licenses/lgpl-3.0/)
+[![License: Boost Software License 1.0](https://img.shields.io/badge/license-Boost%20Software%20License%201.0-blue)](https://choosealicense.com/licenses/bsl-1.0/)
 
 ## Description
 
-Description
+This is a sample README file for my imaginary application.
 
-- motivation
-- problems
-- things
+- Motivation: Motivation
+- Problems it solves: Solves problems
+- Learnings: Stuff and things
 
-## Table of Contents 
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -23,11 +23,15 @@ Description
 
 ## Installation
 
-install
+1. Go to GitHub repo
+2. Fork repo
+3. Clone forked repo to local machine
+4. Open repo
+5. Install dependencies
 
 ## Usage
 
-use
+Use it
 
 ## How to Contribute
 
@@ -35,22 +39,21 @@ use
 
 ## Tests
 
-test
+Test it
 
 ## Questions?
 
 Developed by: Fran
 
-Email me at: fran@email.com
+Email me at: fran@example.com
 
-GitHub Repository: github/user/repo
+GitHub Repository: github.com/user/repo
 
 GitHub Profile: github.com/user
 
 ## License
 
-Documentation for GNU LGPLv3 can be found at:
-[License: GNU LGPLv3](https://choosealicense.com/licenses/lgpl-3.0/)
+Documentation for Boost Software License 1.0 can be found at:
+[License: Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/)
 
 ---
-
