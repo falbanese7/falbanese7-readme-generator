@@ -102,9 +102,9 @@ ${data.installation}
 ![Highlighting code button](images/Screen%20Shot%202022-05-19%20at%201.15.05%20AM.png)
 ![git clone typed in terminal](images/Screen%20Shot%202022-05-19%20at%201.17.01%20AM.png)
 
-## Usage
+## Usage and Video Walkthrough
 
-[Video Walkthrough](https://drive.google.com/file/d/15NFMYy15ognmERclBAMJ_L-mfLQvOVg_/view)
+[Video Walkthrough](https://drive.google.com/file/d/1k3MtKuooV5mMgPFjeQQQk7-8z627UKvg/view?usp=sharing)
 
 ${data.usage}
 

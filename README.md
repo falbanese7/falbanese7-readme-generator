@@ -39,7 +39,7 @@ This is a command-line application that prompts the user with questions using in
 
 ## Usage and Video Walkthrough
 
-[The Video Walkthrough can be find by clicking on this hyperlinked text.](https://drive.google.com/file/d/15NFMYy15ognmERclBAMJ_L-mfLQvOVg_/view)
+[The Video Walkthrough can be find by clicking on this hyperlinked text.](https://drive.google.com/file/d/1k3MtKuooV5mMgPFjeQQQk7-8z627UKvg/view?usp=sharing)
 
 1. Open the repository in your preferred code editor (this guide uses Visual Studio Code)
 2. Right click the index.js file
