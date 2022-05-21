@@ -78,7 +78,7 @@ Developed by: Francesco Albanese
 
 Email me at: falbanese96@gmail.com
 
-GitHub Repository: https://github.com/falbanese7/readme-generator
+GitHub Repository: https://github.com/falbanese7/falbanese7-readme-generator
 
 GitHub Profile: https://github.com/falbanese7
 
