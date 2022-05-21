@@ -83,9 +83,9 @@ ${renderLicenseBadge(data.license)}
 
 ${data.description}
 
-- ${data.motivation}
-- ${data.solved}
-- ${data.learnings}
+- Motivation: ${data.motivation}
+- Problems it solves: ${data.solved}
+- Learnings: ${data.learnings}
 
 ## Table of Contents 
 
@@ -99,20 +99,10 @@ ${data.description}
 ## Installation
 
 ${data.installation}
-![Highlighting code button](images/Screen%20Shot%202022-05-19%20at%201.15.05%20AM.png)
-![git clone typed in terminal](images/Screen%20Shot%202022-05-19%20at%201.17.01%20AM.png)
 
-## Usage and Video Walkthrough
-
-[Video Walkthrough](https://drive.google.com/file/d/1k3MtKuooV5mMgPFjeQQQk7-8z627UKvg/view?usp=sharing)
+## Usage
 
 ${data.usage}
-
-
-
-![Right clicking index.js for integrated terminal](images/Screen%20Shot%202022-05-19%20at%201.18.29%20AM.png)
-![Typing node index.js into terminal](images/Screen%20Shot%202022-05-19%20at%201.18.44%20AM.png)
-
 
 ## How to Contribute
 

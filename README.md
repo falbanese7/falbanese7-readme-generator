@@ -39,7 +39,7 @@ This is a command-line application that prompts the user with questions using in
 
 ## Usage and Video Walkthrough
 
-[The Video Walkthrough can be find by clicking on this hyperlinked text.](https://drive.google.com/file/d/1k3MtKuooV5mMgPFjeQQQk7-8z627UKvg/view?usp=sharing)
+[The Video Walkthrough can be find by clicking on this hyperlinked text.](https://drive.google.com/file/d/1PFjlocqT078jhsXuqHdNvzIiW5baTMse/view?usp=sharing)
 
 1. Open the repository in your preferred code editor (this guide uses Visual Studio Code)
 2. Right click the index.js file
@@ -78,9 +78,9 @@ Developed by: Francesco Albanese
 
 Email me at: falbanese96@gmail.com
 
-GitHub Repository: https://github.com/falbanese7/falbanese7-readme-generator
+GitHub Repository: [https://github.com/falbanese7/falbanese7-readme-generator](https://github.com/falbanese7/falbanese7-readme-generator)
 
-GitHub Profile: https://github.com/falbanese7
+GitHub Profile: [https://github.com/falbanese7](https://github.com/falbanese7)
 
 ## License
 

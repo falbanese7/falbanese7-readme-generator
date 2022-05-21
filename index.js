@@ -79,7 +79,7 @@ const appPrompt = () => {
 
 const init = () => {
     appPrompt()
-      .then((data) => fs.writeFileSync('README.md', markdownFunctions.generateMarkdown(data)))
+      .then((data) => fs.writeFileSync('./Output/README.md', markdownFunctions.generateMarkdown(data)))
       .then(() => console.log('Successfully wrote to README.md file'))
       .catch((err) => console.error(err));
   };
