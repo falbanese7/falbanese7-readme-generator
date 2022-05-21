@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const markdownFunctions = require('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
 const appPrompt = () => {
@@ -54,7 +55,7 @@ const appPrompt = () => {
         {
             type: 'input',
             message: 'What is the name of the application creator(s)?',
-            name: 'author'
+            name: 'authors'
         },
         {
             type: 'input',
@@ -63,7 +64,7 @@ const appPrompt = () => {
         },
         {
             type: 'input',
-            message: 'Please provide the GitHub repo URL',
+            message: 'Please provide the GitHub repo URL.',
             name: 'repo'
         },
         {
@@ -75,11 +76,10 @@ const appPrompt = () => {
 };
 
 // TODO: Create a function to initialize app
-const generateMarkdown = require('./utils/generateMarkdown');
 
 const init = () => {
     appPrompt()
-      .then((data) => fs.writeFileSync('README.md', generateMarkdown(data)))
+      .then((data) => fs.writeFileSync('README.md', markdownFunctions.generateMarkdown(data)))
       .then(() => console.log('Successfully wrote to README.md file'))
       .catch((err) => console.error(err));
   };

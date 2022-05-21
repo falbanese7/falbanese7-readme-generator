@@ -1,6 +1,7 @@
-const badgeFunctions = require('../utils/generateMarkdown')
+const markdownFunctions = require('../utils/generateMarkdown')
 const licenses = ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'];
 
+// These unit tests will tests the functions that render the badge in the README file.
 describe('are badge functions working', () => {
     describe('renderLicenseBadge', () => {
         it("should return a string that is equal to the string that the user selects to be passed through the function", () => {
@@ -15,24 +16,24 @@ describe('are badge functions working', () => {
                 "[![License: The Unlicense](https://img.shields.io/badge/license-The%20Unlicense-blue)](https://choosealicense.com/licenses/unlicense/)"
             ]
 
-            expect(badgeFunctions.renderLicenseBadge(licenses[0])).toEqual(badge[0]);
+            expect(markdownFunctions.renderLicenseBadge(licenses[0])).toEqual(badge[0]);
 
         });
     });
     describe('renderLicenseLink', () => {
         it("should return a string that is equal to the string that the user selects to be passed through the function", () => {
             const badge = [
-                "[![License: GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)", 
-                "[![License: GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)",
-                "[![License: GNU LGPLv3](https://choosealicense.com/licenses/lgpl-3.0/)",
-                "[![License: Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)",
-                "[![License: Apache License 2.0'](https://choosealicense.com/licenses/apache-2.0/)",
-                "[![License: MIT License](https://choosealicense.com/licenses/mit/)",
-                "[![License: Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/)",
-                "[![License: The Unlicense](https://choosealicense.com/licenses/unlicense/)"
+                "[License: GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)", 
+                "[License: GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)",
+                "[License: GNU LGPLv3](https://choosealicense.com/licenses/lgpl-3.0/)",
+                "[License: Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)",
+                "[License: Apache License 2.0'](https://choosealicense.com/licenses/apache-2.0/)",
+                "[License: MIT License](https://choosealicense.com/licenses/mit/)",
+                "[License: Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/)",
+                "[License: The Unlicense](https://choosealicense.com/licenses/unlicense/)"
             ]
 
-            expect(badgeFunctions.renderLicenseLink(licenses[7])).toEqual(badge[7]);
+            expect(markdownFunctions.renderLicenseLink(licenses[7])).toEqual(badge[7]);
 
         });
     });
@@ -49,7 +50,7 @@ describe('are badge functions working', () => {
                 `Documentation for ${licenses[7]} can be found at:`
             ]
 
-            expect(badgeFunctions.renderLicenseSection(licenses[4])).toEqual(badge[4]);
+            expect(markdownFunctions.renderLicenseSection(licenses[4])).toEqual(badge[4]);
 
         });
     });
