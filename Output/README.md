@@ -1,16 +1,12 @@
-# Title
+# Francesco Albanese's Team Profile Generator
 
 ## Badges
 
-[![License: Boost Software License 1.0](https://img.shields.io/badge/license-Boost%20Software%20License%201.0-blue)](https://choosealicense.com/licenses/bsl-1.0/)
+[![License: MIT License](https://img.shields.io/badge/license-MIT%20License-blue)](https://choosealicense.com/licenses/mit/)
 
 ## Description
 
-This is a sample README file for my imaginary application.
-
-- Motivation: Motivation
-- Problems it solves: Solves problems
-- Learnings: Stuff and things
+This is a command-line application that takes in user-provided information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
 
 ## Table of Contents
 
@@ -23,15 +19,11 @@ This is a sample README file for my imaginary application.
 
 ## Installation
 
-1. Go to GitHub repo
-2. Fork repo
-3. Clone forked repo to local machine
-4. Open repo
-5. Install dependencies
+1. Go to the repository on GitHub 2. Fork the repository 3. Git clone the repository to your local computer 4. Open the repository using a code editing application like Visual Studio Code 5. Open an integrated terminal in the repository's root directory 6. Type npm i to install the depencies needed to run the application 7. You may now use the application
 
 ## Usage
 
-Use it
+1. Open the repository in a code edting application like Visual Studio Code 2. Open the root directory of the repository 3. Open an integrated terminal 4. Type node index.js into the terminal 5. Answer the prompts using your keyboard 6. An html file will be autoamtically generated in the "dist" folder
 
 ## How to Contribute
 
@@ -39,21 +31,21 @@ Use it
 
 ## Tests
 
-Test it
+In an integrated terminal in the repostitory's root directory, type npm test to begin running unit tests that will test the constructor functions that allow user information to be stored and used later.
 
 ## Questions?
 
-Developed by: Fran
+Developed by: Francesco Albanese
 
-Email me at: fran@example.com
+Email me at: falbanese96@gmail.com
 
-GitHub Repository: github.com/user/repo
+GitHub Repository: https://github.com/falbanese7/falbanese7-Team-Profile-Generator
 
-GitHub Profile: github.com/user
+GitHub Profile: https://github.com/falbanese7
 
 ## License
 
-Documentation for Boost Software License 1.0 can be found at:
-[License: Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/)
+Documentation for MIT License can be found at:
+[License: MIT License](https://choosealicense.com/licenses/mit/)
 
 ---
